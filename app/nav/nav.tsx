@@ -16,7 +16,7 @@ const Nav = () => {
     <header className="fixed top-5 flex px-6 w-full justify-start flex-col md:flex-row md:justify-center items-start md:items-center">
       <div className="mt-2 flex flex-col pl-4 pb-2 pr-4 text-gray-300">
         <Link href="/">
-          <FaDev size={40} className="hover:animate-ping" />
+          <FaDev size={40} className=" hover:animate-pingonce" />
         </Link>
       </div>
 
