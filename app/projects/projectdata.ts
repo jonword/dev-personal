@@ -1,5 +1,5 @@
-import drumshop from "../assets/images/drumshop.png";
-import reddit from "../assets/images/reddit.jpg";
+import drumshop from "../assets/images/projects/drumshop.png";
+import reddit from "../assets/images/projects/reddit.jpg";
 
 const projects = [
   {
