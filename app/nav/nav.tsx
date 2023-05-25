@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
 import { FaDev } from "react-icons/fa";
 
 const Nav = () => {
