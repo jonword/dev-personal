@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Socials from "./socials/socials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           I'm a self taught software developer with a passion and focus on the
           frontend of web appllications.
         </p>
+        <Socials />
       </div>
     </main>
   );

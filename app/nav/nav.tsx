@@ -14,34 +14,34 @@ const Nav = () => {
       {/* MENU */}
       <ul className="items-center justify-center pt-2 pb-2 flex text-gray-200">
         <li>
-          <button className="flex w-full items-center justify-end px-4 hover:cursor-pointer hover:overline">
-            <Link href="/">
+          <Link href="/">
+            <button className="flex w-full items-center justify-end px-4 hover:cursor-pointer hover:overline">
               <p>Home</p>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </li>
 
         <li>
-          <button className="flex w-full items-center justify-end bg-none px-4  hover:cursor-pointer hover:overline hover:transition-all">
-            <Link href="/techskills">
+          <Link href="/techskills">
+            <button className="flex w-full items-center justify-end bg-none px-4  hover:cursor-pointer hover:overline hover:transition-all">
               <p>Skills</p>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </li>
 
         <li>
-          <button className="flex w-full items-center justify-end  bg-none px-4  hover:cursor-pointer hover:overline hover:transition-all">
-            <Link href="projects">
+          <Link href="projects">
+            <button className="flex w-full items-center justify-end  bg-none px-4  hover:cursor-pointer hover:overline hover:transition-all">
               <p>Projects</p>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </li>
         <li>
-          <button className="flex w-full items-center justify-end bg-none px-4 hover:cursor-pointer hover:overline hover:transition-all">
-            <Link href="contact">
+          <Link href="contact">
+            <button className="flex w-full items-center justify-end bg-none px-4 hover:cursor-pointer hover:overline hover:transition-all">
               <p>Contact</p>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </li>
       </ul>
     </header>
