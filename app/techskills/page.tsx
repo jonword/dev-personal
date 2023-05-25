@@ -10,7 +10,7 @@ const TechSkills = () => {
         <p className="py-4 text-center text-gray-200">
           As a frontend developer, I have experience with these technologies.
         </p>
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+        <div className="grid grid-cols-3 gap-6 md:grid-cols-5">
           {Icons.map((x) => (
             <Skill image={x.image} alt={x.alt} key={x.id} id={x.id} />
           ))}
