@@ -1,7 +1,19 @@
+import { StaticImageData } from "next/image";
 import React from "react";
+import Image from "next/image";
 
-const Skill = () => {
-  return <div>Skill</div>;
+interface Props {
+  image: StaticImageData;
+  alt: string;
+}
+
+const Skill = (props: Props) => {
+  const { image, alt } = props;
+  return (
+    <div>
+      <Image src={image} alt={alt} height={64} width={64} />
+    </div>
+  );
 };
 
 export default Skill;

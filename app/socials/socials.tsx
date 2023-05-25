@@ -7,7 +7,7 @@ const Socials = () => {
   return (
     <>
       <div className="flex md:justify-center ">
-        <ul className="flex text-white/50 border-y border-purple-400/50">
+        <ul className="flex text-white/50 border-y border-green-300/50">
           <li className="flex h-12 w-12 items-center justify-center px-2">
             <a
               className="flex w-full items-center justify-between hover:text-[#0077b5]"
