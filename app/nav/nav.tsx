@@ -6,7 +6,7 @@ import { FaDev } from "react-icons/fa";
 
 const Nav = () => {
   return (
-    <header className="fixed top-0 flex h-20 w-full justify-between shadow-lg shadow-slate-700/75">
+    <header className="fixed top-0 flex h-20 w-full justify-between shadow-lg shadow-slate-700/75 bg-zinc-900">
       <div className="mt-4 flex flex-col pl-4 pb-2 pr-4 text-sky-300/40">
         <FaDev size={40} />
       </div>

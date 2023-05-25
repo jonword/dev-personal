@@ -13,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Nav />
       <body className="bg-gradient-to-b from-zinc-900 via-zinc-950 to-gray-900">
-        {children}
+        <Nav />
+        <main>{children}</main>
       </body>
     </html>
   );

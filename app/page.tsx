@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full">
+    <main className="h-screen w-full">
       {/* CONTAINER */}
       <div className="mx-auto flex h-full max-w-[1000px] flex-col justify-center px-8">
         <p className="text-gray-300">Hey, my name is</p>
