@@ -20,7 +20,13 @@ const Project = (props: Props) => {
       <header className="card-header text-center text-gray-200">
         <h3 className="mt-2">{title}</h3>
       </header>
-      <Image src={image} alt={alt} className="mt-4 mb-2 p-2" />
+      <Image
+        src={image}
+        alt={alt}
+        height={300}
+        width={300}
+        className="mt-4 mb-2 p-2"
+      />
       <p className="mb-2 text-center text-sm italic text-gray-400">
         Tools used: {techList}
       </p>

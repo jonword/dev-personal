@@ -5,12 +5,9 @@ import projectdata from "./projectdata";
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="mt-20 w-full lg:h-screen">
+      <div id="projects" className="mt-20 w-full h-screen">
         <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
-          <p className="text-center text-4xl font-bold text-gray-200">
-            Projects
-          </p>
-          <div className="flex shrink flex-col items-center justify-center gap-12 p-4 lg:flex-row">
+          <div className="grid grid-cols-1 md:grid-cols-2 shrink items-center justify-center gap-6 p-4 flex-row">
             {projectdata.map((p) => (
               <Project
                 id={0}
