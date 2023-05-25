@@ -11,11 +11,11 @@ export default function Home() {
           Jonathan Word
         </h1>
         <h2 className="shrink text-2xl font-bold md:text-7xl text-sky-400/40">
-          I'm a Software Developer.
+          {"I'm"} a Software Developer.
         </h2>
         <p className="max-w-[700px] shrink flex-wrap py-4 text-gray-300">
-          I'm a self taught software developer with a passion and focus on the
-          frontend of web appllications.
+          {"I'm"} a self taught software developer with a passion and focus on
+          the frontend of web appllications.
         </p>
         <Socials />
       </div>
