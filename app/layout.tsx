@@ -1,4 +1,5 @@
 import "./globals.css";
+import Nav from "./nav/nav";
 
 export const metadata = {
   title: "Jonathan Word Dev Portfolio",
@@ -12,6 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Nav />
       <body className="bg-gradient-to-b from-zinc-900 via-zinc-950 to-gray-900">
         {children}
       </body>
