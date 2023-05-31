@@ -3,22 +3,18 @@ import Socials from "../socials/socials";
 
 const Contact = () => {
   return (
-    <div
-      className="flex h-screen w-full flex-col items-center justify-center p-4"
-      id="contact"
-    >
-      <h1 className="pb-4 text-center text-3xl text-white">Contact</h1>
+    <div className="flex min-h-screen w-full flex-col p-24" id="contact">
+      <h1 className="pb-4 text-3xl text-white">Contact</h1>
       <Socials />
       <form
         name="Contact"
         method="POST"
-        className="flex  w-full max-w-[600px] flex-col"
+        className="flex w-full max-w-[600px] flex-col"
       >
-        {/* Netlify */}
         <input type="hidden" name="form-name" value="Contact" />
 
         <div className="">
-          <p className="pb-8 text-white"></p>
+          <p className="pb-6 text-white"></p>
         </div>
         <input type="text" placeholder="Name" name="name" className="p-2" />
         <input

@@ -21,18 +21,18 @@ const Icons = [
   },
   {
     id: 2,
-    image: tailwind,
-    alt: "Tailwindcss",
-  },
-  {
-    id: 3,
     image: js,
     alt: "JavaScript",
   },
   {
-    id: 4,
+    id: 3,
     image: ts,
     alt: "TypeScript",
+  },
+  {
+    id: 4,
+    image: tailwind,
+    alt: "Tailwindcss",
   },
   {
     id: 5,
