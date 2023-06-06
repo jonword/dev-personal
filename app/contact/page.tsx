@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "../socials/socials";
+import { z } from "zod";
 
 const Contact = () => {
   return (
