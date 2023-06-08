@@ -4,9 +4,11 @@ import { z } from "zod";
 
 const Contact = () => {
   return (
-    <div className="flex min-h-screen w-full flex-col p-24" id="contact">
+    <div
+      className="flex min-h-screen w-full flex-col p-24"
+      id="contact items-center"
+    >
       <h1 className="pb-4 text-3xl text-white">Contact</h1>
-      <Socials />
       <form
         name="Contact"
         method="POST"

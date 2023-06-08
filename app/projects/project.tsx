@@ -16,7 +16,7 @@ const Project = (props: Props) => {
   const { image, title, alt, techList, description, live, repo, id } = props;
 
   return (
-    <div className="card flex  max-h-[400px] max-w-[400px] shrink flex-col items-center justify-center border border-subtitle bg-projects p-2 shadow-lg shadow-shadow">
+    <div className="card flex h-[350px] w-[350px] flex-col items-center justify-center border p-2">
       <header className="card-header text-center text-gray-200">
         <h3 className="mt-2">{title}</h3>
       </header>

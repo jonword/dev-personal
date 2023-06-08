@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Socials from "./socials/socials";
 
 export default function Home() {

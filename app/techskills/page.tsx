@@ -4,7 +4,7 @@ import Skill from "./skill";
 
 const TechSkills = () => {
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full p-24">
       <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col items-start md:items-center justify-center p-4">
         <p className="text-4xl font-bold text-slate-400">Skills</p>
         <p className="py-4 text-gray-200">

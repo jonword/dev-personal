@@ -13,10 +13,10 @@ const Nav = () => {
   console.log(current);
 
   return (
-    <header className="flex py-8 px-6 w-full justify-start flex-col md:flex-row md:justify-center items-start md:items-center">
+    <header className="flex py-8 px-8 w-full justify-center items-center">
       <div className="mt-2 flex flex-col pl-4 pb-2 pr-4 text-gray-300">
         <Link href="/">
-          <FaDev size={40} className=" hover:animate-pingonce" />
+          <FaDev size={30} className=" hover:animate-pingonce" />
         </Link>
       </div>
 

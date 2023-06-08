@@ -5,9 +5,9 @@ import projectdata from "./projectdata";
 const Projects = () => {
   return (
     <>
-      <div id="projects" className=" w-full min-h-screen">
+      <div id="projects" className=" w-full min-h-screen p-24">
         <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 shrink items-center justify-center gap-6 p-4 flex-row">
+          <div className="flex md:flex-row flex-col items-center justify-center gap-10 p-4">
             {projectdata.map((p) => (
               <Project
                 id={0}
