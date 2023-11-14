@@ -12,7 +12,7 @@ export default function Home() {
       </h2>
       <p className="max-w-[700px] shrink flex-wrap py-3 text-gray-300">
         {"I'm"} a self taught software developer with a passion and focus on the
-        frontend of web appllications.
+        frontend of web applications.
       </p>
       <Socials />
     </div>

@@ -24,6 +24,7 @@ const ContactForm = () => {
     <>
       <form
         name="Contact"
+        action="https://formsubmit.co/jonathanword.dev@gmail.com"
         method="POST"
         className="flex w-full max-w-[600px] flex-col"
       >
